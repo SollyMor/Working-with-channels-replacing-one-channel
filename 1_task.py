@@ -1,6 +1,6 @@
 import cv2 
 
-def swich_r_g(image):
+def switch_r_g(image):
   """
     Swap the red and green channels of a BGR image.
 
@@ -16,6 +16,7 @@ def swich_r_g(image):
 
 if __name__ == "__main__":
   image = cv2.imread('cat.jpg') 
-  cv2.imshow('Merged Image', swich_r_g(image))
+  cv2.imshow('Merged Image', switch_r_g(image))
   cv2.waitKey(0)
+
   cv2.destroyAllWindows()

@@ -1,4 +1,4 @@
-### RGB Channel Switcher (OpenCV)
+### CV-1-18 RGB Channel Switcher (OpenCV)
 
 A tiny script that swaps the Red and Green channels of an image using OpenCV, then displays the result.
 

@@ -26,7 +26,7 @@ python main.py
 - OpenCV reads images in BGR order. Swapping R and G is equivalent to swapping channels 2 and 1.
 - If no window appears on Windows, ensure you’re running in a desktop session (not headless) and that cv2.waitKey(0) is reached.
 
-##Example
+## Example
 ![Пример](./cat1.jpg)
 ![Результат](./cat1_switched.jpg)
 
